@@ -6,6 +6,12 @@ const options = {
 	}
 };
 let city = 'tashkent'
+if(localStorage.getItem('city') == null) {
+	localStorage.setItem('city', city);
+}
+else {
+	city = localStorage.getItem('city');
+}
 function tas() {
 	city = 'tashkent'
 	open()
@@ -46,12 +52,8 @@ function qas() {
 	city = 'qarshi'
 	open()
 }
-function sur() {
-	city = 'andijan'
-	open()
-}
 function xor() {
-	city = 'andijan'
+	city = 'urgench'
 	open()
 }
 function open() {
@@ -63,5 +65,9 @@ function open() {
 		document.getElementById('a-time').innerHTML = response.items[0].asr
 		document.getElementById('s-time').innerHTML = response.items[0].maghrib
 		document.getElementById('x-time').innerHTML = response.items[0].isha
+		document.getElementById('q-time').innerHTML = response.items[0].shurooq
 	})
+	document.getElementById('current-city').innerHTML = city;
+	localStorage.setItem('city', city)
 }
+open()
