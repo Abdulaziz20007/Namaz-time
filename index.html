@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.ico" />
+
     <title>Namoz vaqtlari</title>
 </head>
 <body>
@@ -20,14 +22,18 @@
             <h6 onclick="sam()">Samarqand</h6>
             <h6 onclick="sir()">Sirdaryo</h6>
             <h6 onclick="qas()">Qashqadaryo</h6>
-            <h6 onclick="sur()">Surhondaryo</h6>
             <h6 onclick="xor()">Xorazm</h6>
         </nav>
         <section>
+            <h1 id="current-city"></h1>
             <div class="cards">
                 <div class="card">
                     <h1>Bamdod</h1>
                     <h2 id="b-time"></h2>
+                </div>
+                <div class="card">
+                    <h1>Quyosh</h1>
+                    <h2 id="q-time"></h2>
                 </div>
                 <div class="card">
                     <h1>Peshin</h1>
@@ -46,10 +52,12 @@
                     <h2 id="x-time"></h2>
                 </div>
             </div>
+            <h5>Ma'lumotlar <a href="https://muslimsalat.com/">Muslimsalat</a> saytidan olindi</h5>
         </section>
     </header>
     <footer>
-        <h1>a</h1>
+        <img src="./logo.png" alt="">
+        <h1>Created by <a href="https://shaxsiy.ml" target="_blank">Abdulaziz</a></h1>
     </footer>
     
     <script src="./index.js"></script>
