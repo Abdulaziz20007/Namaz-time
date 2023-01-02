@@ -137,6 +137,9 @@ h5 {
     }
 }
 @media screen and (max-width: 500px) {
+    header section .cards {
+        padding-bottom: 10vw;
+    }
     header section .cards .card {
         width: 150px;
         padding: 2vw 0;
