@@ -136,13 +136,14 @@ h5 {
     }
 }
 @media screen and (max-width: 500px) {
-    header section .cards .card {
-        margin: 0vw 5vw;
+    header section .cards {
+        margin-bottom: 1vw;
     }
     header section .cards .card {
         width: 150px;
         padding: 9vw 0;
         margin: 0;
+        margin: 0vw 5vw;
     }
     header section .cards .card h1 {
         font-size: 9vw;
