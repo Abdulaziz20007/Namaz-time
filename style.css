@@ -141,8 +141,7 @@ h5 {
     }
     header section .cards .card {
         width: 150px;
-        padding: 9vw 0;
-        margin: 0;
+        padding: 2vw 0;
         margin: 0vw 5vw;
     }
     header section .cards .card h1 {
