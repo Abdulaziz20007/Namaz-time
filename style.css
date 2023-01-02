@@ -4,19 +4,24 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1,h2,h6,p {
+h1,h2,h6,p,h5 {
     font-family: 'Nerko One';
     letter-spacing: 0.2vw;
 }
-h1::selection,h2::selection,h6::selection,p::selection {
+h1::selection,h2::selection,h6::selection,p::selection,a::selection,h5::selection,img::selection {
     background: rgba(0, 0, 0, 0.1);
 }
 h6 {
     cursor: pointer;
-    transition: 0.5s;
+    transition: color 0.5s;
 }
 h6:hover {
     color: rgba(255, 255, 255, 0.7);
+}
+#current-city {
+    margin-top: 5vw;
+    text-transform: capitalize;
+    font-size: 3vw;
 }
 header {
     background: linear-gradient(19deg,#21d4fd,#b721ff);
@@ -48,6 +53,7 @@ header section .cards {
     justify-content: space-between;
     height: 70%;
     width: 65%;
+    margin-top: -10vw;
 }
 header section .cards .card {
     padding: 1vw 0;
@@ -71,10 +77,33 @@ header section .cards .card h2 {
     font-size: 1.5vw;
 }
 ::-webkit-scrollbar {
-    width: 0.5vw;
-    background: linear-gradient(19deg,#21d4fd,#b721ff);
-  }
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(190deg,#21d4fd,#b721ff); 
-    border-radius: 10px;
-  }
+    display: none;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1vw;
+    background: linear-gradient(190deg,#21d4fd,white);
+    border-top: 0.2vw solid black;
+}
+footer img {
+    width: 4vw;
+}
+footer h1 {
+    
+    font-size: 1.8vw;
+}
+a {
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:hover {
+    color: red;
+}
+h5 {
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+    font-size: 1.5vw;
+}
