@@ -123,6 +123,7 @@ h5 {
         flex-wrap: wrap;
         margin-top: 0;
         height: 80%;
+        padding: 0;
     }
     header section .cards .card {
         width: 25vw;
@@ -139,7 +140,6 @@ h5 {
     header section .cards .card {
         width: 150px;
         padding: 2vw 0;
-        margin: 0vw 5vw;
     }
     header section .cards .card h1 {
         font-size: 9vw;
