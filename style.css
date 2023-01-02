@@ -107,3 +107,50 @@ h5 {
     left: 1vw;
     font-size: 1.5vw;
 }
+@media screen and (max-width: 1300px) {
+    #current-city {
+        font-size: 50px;
+    }
+    header nav {
+        flex-wrap: wrap;
+    }
+    header nav h6 {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+    header section .cards {
+        width: 90%;
+        flex-wrap: wrap;
+        margin-top: 0;
+        height: 80%;
+    }
+    header section .cards .card {
+        width: 25vw;
+        padding: 5vw;
+    }
+    header section .cards .card h1 {
+        font-size: 3.5vw;
+    }
+    header section .cards .card h2 {
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    header section .cards .card {
+        margin: 0vw 5vw;
+    }
+    header section .cards .card {
+        width: 150px;
+        padding: 9vw 0;
+        margin: 0;
+    }
+    header section .cards .card h1 {
+        font-size: 9vw;
+    }
+    header section .cards .card h2 {
+        font-size: 7vw;
+    }
+    header h5 {
+        font-size: 5.5vw;
+    }
+}
