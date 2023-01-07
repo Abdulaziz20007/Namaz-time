@@ -85,7 +85,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     padding: 1vw;
-    background: linear-gradient(190deg,#21d4fd,white);
+    background: rgba(245, 222, 179, 0.7);
 }
 footer img {
     width: 4vw;
