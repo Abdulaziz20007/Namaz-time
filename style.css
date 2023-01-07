@@ -142,6 +142,7 @@ h5 {
     header section .cards .card {
         width: 150px;
         padding: 2vw 0;
+        gap: 2vw;
     }
     header section .cards .card h1 {
         font-size: 8vw;
