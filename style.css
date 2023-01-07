@@ -141,7 +141,7 @@ h5 {
     }
     header section .cards .card {
         width: 150px;
-        height: 150px;
+        height: 100px;
         padding: 4vw 0;
         gap: 5vw;
     }
